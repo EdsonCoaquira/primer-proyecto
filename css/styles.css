@@ -1,2 +1,12 @@
 body {
   overflow-x: hidden; }
+
+.background {
+  display: flex;
+  background-color: #93c5fd;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0; }
