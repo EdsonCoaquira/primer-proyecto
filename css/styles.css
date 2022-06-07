@@ -1,3 +1,7 @@
+@charset "UTF-8";
+/* varibles de colores para fondos */
+/* Variables de colores para tipografías */
+/* Estilos para el fondo de la pagína web */
 body {
   overflow-x: hidden; }
 
@@ -97,6 +101,7 @@ body {
   100% {
     transform: translateX(120vw); } }
 
+/* Estilos para la tarjeta de invitación */
 .card {
   background-color: #f1f2f2;
   padding: 5.2rem;
@@ -183,3 +188,49 @@ body {
   .sp-1 .span {
     font-family: 'Open Sans', sans-serif;
     font-size: .95rem; }
+
+/* Estilos para los objetos colgantes */
+.flex-head {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  top: 0; }
+  .flex-head .flex-head-1, .flex-head .flex-head-2 {
+    display: flex;
+    width: 25%;
+    justify-content: space-around; }
+    .flex-head .flex-head-1 .moon, .flex-head .flex-head-2 .moon {
+      height: 12rem;
+      animation: anima-object linear infinite;
+      animation-duration: 12s;
+      transform-origin: center top; }
+    .flex-head .flex-head-1 .bottle, .flex-head .flex-head-2 .bottle {
+      height: 12rem;
+      animation: anima-object linear infinite;
+      animation-duration: 15s;
+      transform-origin: center top;
+      margin: -2rem; }
+    .flex-head .flex-head-1 .pacifier, .flex-head .flex-head-2 .pacifier {
+      height: 12rem;
+      animation: anima-object linear infinite;
+      animation-duration: 13s;
+      transform-origin: center top;
+      margin: -2rem; }
+    .flex-head .flex-head-1 .duck, .flex-head .flex-head-2 .duck {
+      height: 12rem;
+      animation: anima-object linear infinite;
+      animation-duration: 12s;
+      transform-origin: center top; }
+
+@keyframes anima-object {
+  0% {
+    transform: rotate(0deg); }
+  25% {
+    transform: rotate(35deg); }
+  50% {
+    transform: rotate(0deg); }
+  75% {
+    transform: rotate(-35deg); }
+  100% {
+    transform: rotate(0deg); } }

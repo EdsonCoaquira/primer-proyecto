@@ -1,9 +1,13 @@
+/* varibles de colores para fondos */
 $color-background-1: rgb(147, 197, 253);
 $color-background-2: #f1f2f2;
+
+/* Variables de colores para tipografías */
 $color-border: #61bad1;
 $color-tittle-1: rgb(252, 165, 165);
 $color-tittle-2: rgb(167, 139, 250);
 
+/* Estilos para el fondo de la pagína web */
 body {
     overflow-x: hidden;
 }
@@ -118,6 +122,7 @@ body {
     }
 }
 
+/* Estilos para la tarjeta de invitación */
 .card {
     background-color: $color-background-2;
     padding: 5.2rem;
@@ -212,5 +217,63 @@ body {
     .span {
         font-family: 'Open Sans', sans-serif;
         font-size: .95rem;
+    }
+}
+
+/* Estilos para los objetos colgantes */
+.flex-head {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    .flex-head-1,.flex-head-2 {
+        display: flex;
+        width: 25%;
+        justify-content: space-around;
+        .moon {
+            height: 12rem;
+            animation: anima-object linear infinite;
+            animation-duration: 12s;
+            transform-origin: center top;
+        }
+        .bottle {
+            height: 12rem;
+            animation: anima-object linear infinite;
+            animation-duration: 15s;
+            transform-origin: center top;
+            margin: -2rem;
+        }
+        .pacifier {
+            height: 12rem;
+            animation: anima-object linear infinite;
+            animation-duration: 13s;
+            transform-origin: center top;
+            margin: -2rem;
+        }
+        .duck {
+            height: 12rem;
+            animation: anima-object linear infinite;
+            animation-duration: 12s;
+            transform-origin: center top;
+        }
+    }
+}
+
+@keyframes anima-object {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(35deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-35deg);
+    }
+    100%{
+        transform: rotate(0deg);
     }
 }
