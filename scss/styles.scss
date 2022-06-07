@@ -120,11 +120,12 @@ body {
 
 .card {
     background-color: $color-background-2;
-    padding: 5.5rem;
+    padding: 5.2rem;
+    padding-bottom: 6.8rem;
     border: 3px dashed $color-border;
     outline: 15px solid $color-background-2;
     position: relative;
-    width: 29rem;
+    width: 30rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 6rem;
@@ -132,6 +133,7 @@ body {
 }
 
 .t-1 {
+    font-family: 'Marck Script', cursive;
     font-size: 2.5rem;
     line-height: 2.5rem;
     font-weight: 500;
@@ -141,6 +143,7 @@ body {
 }
 
 .t-2 {
+    font-family: 'Marck Script', cursive;
     font-size: 4rem;
     line-height: 4rem;
     font-weight: 500;
@@ -150,46 +153,64 @@ body {
 }
 
 .p-1 {
+    font-family: 'Josefin Slab', serif;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 2.7rem;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
     font-weight: 600;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
     color: $color-border;
 }
 
 .p-2 {
+    font-family: 'Josefin Slab', serif;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: .7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     font-weight: 600;
-    line-height: 1.5rem;
-    margin-top: 1rem;
+    line-height: 1.3rem;
     color: $color-border;
 }
 
 .p-3 {
+    font-family: 'Josefin Slab', serif;
     text-align: right;
-    margin-top: 2rem;
-    margin-right: 1.5rem;
+    margin-top: 1.6rem;
+    margin-right: 2rem;
+    margin-bottom: .8rem;
     font-weight: 600;
     color: $color-border;
 }
 
 .st-1 {
+    font-family: 'Marck Script', cursive;
     text-align: center;
+    font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 0;
     color: $color-tittle-2;
 }
 
 .st-2 {
+    font-family: 'Marck Script', cursive;
     text-align: center;
+    font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 0;
     color: $color-tittle-1;
 }
 
 .sp-1 {
+    font-family: 'Josefin Slab', serif;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 1rem;
     color: $color-border;
+    .span {
+        font-family: 'Open Sans', sans-serif;
+        font-size: .95rem;
+    }
 }

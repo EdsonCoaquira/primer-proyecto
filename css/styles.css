@@ -99,17 +99,19 @@ body {
 
 .card {
   background-color: #f1f2f2;
-  padding: 5.5rem;
+  padding: 5.2rem;
+  padding-bottom: 6.8rem;
   border: 3px dashed #61bad1;
   outline: 15px solid #f1f2f2;
   position: relative;
-  width: 29rem;
+  width: 30rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 6rem;
   overflow: hidden; }
 
 .t-1 {
+  font-family: 'Marck Script', cursive;
   font-size: 2.5rem;
   line-height: 2.5rem;
   font-weight: 500;
@@ -118,6 +120,7 @@ body {
   color: #fca5a5; }
 
 .t-2 {
+  font-family: 'Marck Script', cursive;
   font-size: 4rem;
   line-height: 4rem;
   font-weight: 500;
@@ -126,40 +129,57 @@ body {
   color: #a78bfa; }
 
 .p-1 {
+  font-family: 'Josefin Slab', serif;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 2.7rem;
+  margin-bottom: 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
   font-weight: 600;
-  line-height: 1.5rem;
+  line-height: 1.3rem;
   color: #61bad1; }
 
 .p-2 {
+  font-family: 'Josefin Slab', serif;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: .7rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   font-weight: 600;
-  line-height: 1.5rem;
-  margin-top: 1rem;
+  line-height: 1.3rem;
   color: #61bad1; }
 
 .p-3 {
+  font-family: 'Josefin Slab', serif;
   text-align: right;
-  margin-top: 2rem;
-  margin-right: 1.5rem;
+  margin-top: 1.6rem;
+  margin-right: 2rem;
+  margin-bottom: .8rem;
   font-weight: 600;
   color: #61bad1; }
 
 .st-1 {
+  font-family: 'Marck Script', cursive;
   text-align: center;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 0;
   color: #a78bfa; }
 
 .st-2 {
+  font-family: 'Marck Script', cursive;
   text-align: center;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 0;
   color: #fca5a5; }
 
 .sp-1 {
+  font-family: 'Josefin Slab', serif;
   text-align: center;
   margin-top: 0;
+  margin-bottom: 1rem;
   color: #61bad1; }
+  .sp-1 .span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .95rem; }
