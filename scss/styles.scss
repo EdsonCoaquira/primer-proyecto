@@ -277,3 +277,56 @@ body {
         transform: rotate(0deg);
     }
 }
+
+/* Estilos para los cartelitos rosados */
+.poster-left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    .poster-left-1 {
+        width: 13rem;
+        transform: rotate(52deg);
+        vertical-align: middle;
+        margin-left: -36px;
+        margin-bottom: 10px;
+    }
+    .morning-left {
+        position: absolute;
+        left: 4.2rem;
+        top: 5rem;
+        transform: rotate(40deg);
+        .button-left {
+            font-family: 'Marck Script', cursive;
+            color: white;
+            border: none;
+            background-color: transparent;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+    }
+}
+
+.poster-right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    .poster-right-1 {
+        width: 12rem;
+        vertical-align: middle;
+        margin-bottom: -25px;
+    }
+    .night-right {
+        position: absolute;
+        left: 3.8rem;
+        top: 4.3rem;
+        transform: rotate(-40deg);
+        .button-right {
+            font-family: 'Marck Script', cursive;
+            color: white;
+            border: none;
+            background-color: transparent;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+    }
+}
