@@ -1,4 +1,8 @@
-$color-1: rgb(147, 197, 253);
+$color-background-1: rgb(147, 197, 253);
+$color-background-2: #f1f2f2;
+$color-border: #61bad1;
+$color-tittle-1: rgb(252, 165, 165);
+$color-tittle-2: rgb(167, 139, 250);
 
 body {
     overflow-x: hidden;
@@ -6,7 +10,7 @@ body {
 
 .background {
     display: flex;
-    background-color: $color-1;
+    background-color: $color-background-1;
     flex-wrap: wrap;
     width: 100vw;
     height: 100vh;
@@ -112,4 +116,80 @@ body {
     100%{
         transform: translateX(120vw);
     }
+}
+
+.card {
+    background-color: $color-background-2;
+    padding: 5.5rem;
+    border: 3px dashed $color-border;
+    outline: 15px solid $color-background-2;
+    position: relative;
+    width: 29rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    overflow: hidden;
+}
+
+.t-1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    color: $color-tittle-1;
+}
+
+.t-2 {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    color: $color-tittle-2;
+}
+
+.p-1 {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: $color-border;
+}
+
+.p-2 {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    color: $color-border;
+}
+
+.p-3 {
+    text-align: right;
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+    font-weight: 600;
+    color: $color-border;
+}
+
+.st-1 {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: $color-tittle-2;
+}
+
+.st-2 {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: $color-tittle-1;
+}
+
+.sp-1 {
+    text-align: center;
+    margin-top: 0;
+    color: $color-border;
 }
