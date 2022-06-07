@@ -1,6 +1,20 @@
 @charset "UTF-8";
 /* varibles de colores para fondos */
 /* Variables de colores para tipografías */
+/* Placeholder de objetos */
+.flex-head .flex-head-1 .moon, .flex-head .flex-head-2 .moon, .flex-head .flex-head-1 .bottle, .flex-head .flex-head-2 .bottle, .flex-head .flex-head-1 .pacifier, .flex-head .flex-head-2 .pacifier, .flex-head .flex-head-1 .duck, .flex-head .flex-head-2 .duck {
+  height: 12rem;
+  animation: anima-object linear infinite;
+  transform-origin: center top; }
+
+.poster-left .morning-left .button-left, .poster-right .night-right .button-right {
+  font-family: 'Marck Script', cursive;
+  color: white;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  cursor: pointer; }
+
 /* Estilos para el fondo de la pagína web */
 body {
   overflow-x: hidden; }
@@ -14,86 +28,76 @@ body {
   position: fixed;
   top: 0;
   left: 0; }
-
-.cloud-1 {
-  top: 2vh;
-  left: -200px;
-  animation: anima-cloud linear infinite;
-  animation-duration: 10s;
-  width: 6rem;
-  position: absolute; }
-
-.cloud-2 {
-  top: 10vh;
-  left: -300px;
-  animation: anima-cloud linear infinite;
-  animation-duration: 20s;
-  width: 12rem;
-  position: absolute; }
-
-.cloud-3 {
-  top: 15vh;
-  left: -200px;
-  animation: anima-cloud linear infinite;
-  animation-duration: 15s;
-  width: 6rem;
-  position: absolute; }
-
-.cloud-4 {
-  top: 35vh;
-  left: -300px;
-  animation: anima-cloud linear infinite;
-  animation-duration: 30s;
-  width: 12rem;
-  position: absolute; }
-
-.cloud-5 {
-  top: 25vh;
-  left: -200px;
-  animation: anima-cloud linear infinite;
-  animation-duration: 12s;
-  width: 6rem;
-  position: absolute; }
-
-.cloud-6 {
-  top: 70vh;
-  left: -300px;
-  animation: anima-cloud linear infinite;
-  animation-duration: 24s;
-  width: 12rem;
-  position: absolute; }
-
-.cloud-7 {
-  top: 40vh;
-  left: -200px;
-  animation: anima-cloud linear infinite;
-  animation-duration: 50s;
-  width: 4rem;
-  position: absolute; }
-
-.cloud-8 {
-  top: 55vh;
-  left: -200px;
-  animation: anima-cloud linear infinite;
-  animation-duration: 32s;
-  width: 7rem;
-  position: absolute; }
-
-.cloud-9 {
-  top: 65vh;
-  left: -300px;
-  animation: anima-cloud linear infinite;
-  animation-duration: 20s;
-  width: 10rem;
-  position: absolute; }
-
-.cloud-10 {
-  top: 90vh;
-  left: -200px;
-  animation: anima-cloud linear infinite;
-  animation-duration: 56s;
-  width: 5rem;
-  position: absolute; }
+  .background .cloud-1 {
+    top: 2vh;
+    left: -200px;
+    animation: anima-cloud linear infinite;
+    animation-duration: 10s;
+    width: 6rem;
+    position: absolute; }
+  .background .cloud-2 {
+    top: 10vh;
+    left: -300px;
+    animation: anima-cloud linear infinite;
+    animation-duration: 20s;
+    width: 12rem;
+    position: absolute; }
+  .background .cloud-3 {
+    top: 15vh;
+    left: -200px;
+    animation: anima-cloud linear infinite;
+    animation-duration: 15s;
+    width: 6rem;
+    position: absolute; }
+  .background .cloud-4 {
+    top: 35vh;
+    left: -300px;
+    animation: anima-cloud linear infinite;
+    animation-duration: 30s;
+    width: 12rem;
+    position: absolute; }
+  .background .cloud-5 {
+    top: 25vh;
+    left: -200px;
+    animation: anima-cloud linear infinite;
+    animation-duration: 12s;
+    width: 6rem;
+    position: absolute; }
+  .background .cloud-6 {
+    top: 70vh;
+    left: -300px;
+    animation: anima-cloud linear infinite;
+    animation-duration: 24s;
+    width: 12rem;
+    position: absolute; }
+  .background .cloud-7 {
+    top: 40vh;
+    left: -200px;
+    animation: anima-cloud linear infinite;
+    animation-duration: 50s;
+    width: 4rem;
+    position: absolute; }
+  .background .cloud-8 {
+    top: 55vh;
+    left: -200px;
+    animation: anima-cloud linear infinite;
+    animation-duration: 32s;
+    width: 7rem;
+    position: absolute; }
+  .background .cloud-9 {
+    top: 65vh;
+    left: -300px;
+    animation: anima-cloud linear infinite;
+    animation-duration: 20s;
+    width: 10rem;
+    position: absolute; }
+  .background .cloud-10 {
+    top: 90vh;
+    left: -200px;
+    animation: anima-cloud linear infinite;
+    animation-duration: 56s;
+    width: 5rem;
+    position: absolute; }
 
 @keyframes anima-cloud {
   0% {
@@ -114,80 +118,72 @@ body {
   margin-right: auto;
   margin-top: 6rem;
   overflow: hidden; }
-
-.t-1 {
-  font-family: 'Marck Script', cursive;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  font-weight: 500;
-  text-align: center;
-  margin: 0;
-  color: #fca5a5; }
-
-.t-2 {
-  font-family: 'Marck Script', cursive;
-  font-size: 4rem;
-  line-height: 4rem;
-  font-weight: 500;
-  text-align: center;
-  margin: 0;
-  color: #a78bfa; }
-
-.p-1 {
-  font-family: 'Josefin Slab', serif;
-  text-align: center;
-  margin-top: 2.7rem;
-  margin-bottom: 0;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  font-weight: 600;
-  line-height: 1.3rem;
-  color: #61bad1; }
-
-.p-2 {
-  font-family: 'Josefin Slab', serif;
-  text-align: center;
-  margin-top: .7rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  font-weight: 600;
-  line-height: 1.3rem;
-  color: #61bad1; }
-
-.p-3 {
-  font-family: 'Josefin Slab', serif;
-  text-align: right;
-  margin-top: 1.6rem;
-  margin-right: 2rem;
-  margin-bottom: .8rem;
-  font-weight: 600;
-  color: #61bad1; }
-
-.st-1 {
-  font-family: 'Marck Script', cursive;
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin-bottom: 0;
-  color: #a78bfa; }
-
-.st-2 {
-  font-family: 'Marck Script', cursive;
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin-bottom: 0;
-  color: #fca5a5; }
-
-.sp-1 {
-  font-family: 'Josefin Slab', serif;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  color: #61bad1; }
-  .sp-1 .span {
-    font-family: 'Open Sans', sans-serif;
-    font-size: .95rem; }
+  .card .t-1 {
+    font-family: 'Marck Script', cursive;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    color: #fca5a5; }
+  .card .t-2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    color: #a78bfa; }
+  .card .p-1 {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    margin-top: 2.7rem;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    color: #61bad1; }
+  .card .p-2 {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    margin-top: .7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    color: #61bad1; }
+  .card .p-3 {
+    font-family: 'Josefin Slab', serif;
+    text-align: right;
+    margin-top: 1.6rem;
+    margin-right: 2rem;
+    margin-bottom: .8rem;
+    font-weight: 600;
+    color: #61bad1; }
+  .card .st-1 {
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #a78bfa; }
+  .card .st-2 {
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #fca5a5; }
+  .card .sp-1 {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #61bad1; }
+    .card .sp-1 .span {
+      font-family: 'Open Sans', sans-serif;
+      font-size: .95rem; }
 
 /* Estilos para los objetos colgantes */
 .flex-head {
@@ -201,27 +197,15 @@ body {
     width: 25%;
     justify-content: space-around; }
     .flex-head .flex-head-1 .moon, .flex-head .flex-head-2 .moon {
-      height: 12rem;
-      animation: anima-object linear infinite;
-      animation-duration: 12s;
-      transform-origin: center top; }
+      animation-duration: 12s; }
     .flex-head .flex-head-1 .bottle, .flex-head .flex-head-2 .bottle {
-      height: 12rem;
-      animation: anima-object linear infinite;
       animation-duration: 15s;
-      transform-origin: center top;
       margin: -2rem; }
     .flex-head .flex-head-1 .pacifier, .flex-head .flex-head-2 .pacifier {
-      height: 12rem;
-      animation: anima-object linear infinite;
       animation-duration: 13s;
-      transform-origin: center top;
       margin: -2rem; }
     .flex-head .flex-head-1 .duck, .flex-head .flex-head-2 .duck {
-      height: 12rem;
-      animation: anima-object linear infinite;
-      animation-duration: 12s;
-      transform-origin: center top; }
+      animation-duration: 12s; }
 
 @keyframes anima-object {
   0% {
@@ -251,13 +235,6 @@ body {
     left: 4.2rem;
     top: 5rem;
     transform: rotate(40deg); }
-    .poster-left .morning-left .button-left {
-      font-family: 'Marck Script', cursive;
-      color: white;
-      border: none;
-      background-color: transparent;
-      font-size: 1.5rem;
-      cursor: pointer; }
 
 .poster-right {
   position: fixed;
@@ -272,10 +249,3 @@ body {
     left: 3.8rem;
     top: 4.3rem;
     transform: rotate(-40deg); }
-    .poster-right .night-right .button-right {
-      font-family: 'Marck Script', cursive;
-      color: white;
-      border: none;
-      background-color: transparent;
-      font-size: 1.5rem;
-      cursor: pointer; }

@@ -7,6 +7,22 @@ $color-border: #61bad1;
 $color-tittle-1: rgb(252, 165, 165);
 $color-tittle-2: rgb(167, 139, 250);
 
+/* Placeholder de objetos */
+%object-1 {
+    height: 12rem;
+    animation: anima-object linear infinite;
+    transform-origin: center top;
+}
+
+%object-2 {
+    font-family: 'Marck Script', cursive;
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
 /* Estilos para el fondo de la pagína web */
 body {
     overflow-x: hidden;
@@ -21,104 +37,93 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-}
-
-.cloud-1 {
-    top: 2vh;
-    left: -200px;
-    animation: anima-cloud linear infinite;
-    animation-duration: 10s;
-    width: 6rem;
-    position: absolute;
-}
-
-.cloud-2 {
-    top: 10vh;
-    left: -300px;
-    animation: anima-cloud linear infinite;
-    animation-duration: 20s;
-    width: 12rem;
-    position: absolute;
-}
-
-.cloud-3 {
-    top: 15vh;
-    left: -200px;
-    animation: anima-cloud linear infinite;
-    animation-duration: 15s;
-    width: 6rem;
-    position: absolute;
-}
-
-.cloud-4 {
-    top: 35vh;
-    left: -300px;
-    animation: anima-cloud linear infinite;
-    animation-duration: 30s;
-    width: 12rem;
-    position: absolute;
-}
-
-.cloud-5 {
-    top: 25vh;
-    left: -200px;
-    animation: anima-cloud linear infinite;
-    animation-duration: 12s;
-    width: 6rem;
-    position: absolute;
-}
-
-.cloud-6 {
-    top: 70vh;
-    left: -300px;
-    animation: anima-cloud linear infinite;
-    animation-duration: 24s;
-    width: 12rem;
-    position: absolute;
-}
-
-.cloud-7 {
-    top: 40vh;
-    left: -200px;
-    animation: anima-cloud linear infinite;
-    animation-duration: 50s;
-    width: 4rem;
-    position: absolute;
-}
-
-.cloud-8 {
-    top: 55vh;
-    left: -200px;
-    animation: anima-cloud linear infinite;
-    animation-duration: 32s;
-    width: 7rem;
-    position: absolute;
-}
-
-.cloud-9 {
-    top: 65vh;
-    left: -300px;
-    animation: anima-cloud linear infinite;
-    animation-duration: 20s;
-    width: 10rem;
-    position: absolute;
-}
-
-.cloud-10 {
-    top: 90vh;
-    left: -200px;
-    animation: anima-cloud linear infinite;
-    animation-duration: 56s;
-    width: 5rem;
-    position: absolute;
-}
-
-@keyframes anima-cloud {
-    0%{
-        transform: translateX(0);
+    .cloud-1 {
+        top: 2vh;
+        left: -200px;
+        animation: anima-cloud linear infinite;
+        animation-duration: 10s;
+        width: 6rem;
+        position: absolute;
     }
-    100%{
-        transform: translateX(120vw);
+    .cloud-2 {
+        top: 10vh;
+        left: -300px;
+        animation: anima-cloud linear infinite;
+        animation-duration: 20s;
+        width: 12rem;
+        position: absolute;
+    }
+    .cloud-3 {
+        top: 15vh;
+        left: -200px;
+        animation: anima-cloud linear infinite;
+        animation-duration: 15s;
+        width: 6rem;
+        position: absolute;
+    }
+    .cloud-4 {
+        top: 35vh;
+        left: -300px;
+        animation: anima-cloud linear infinite;
+        animation-duration: 30s;
+        width: 12rem;
+        position: absolute;
+    }
+    .cloud-5 {
+        top: 25vh;
+        left: -200px;
+        animation: anima-cloud linear infinite;
+        animation-duration: 12s;
+        width: 6rem;
+        position: absolute;
+    }
+    .cloud-6 {
+        top: 70vh;
+        left: -300px;
+        animation: anima-cloud linear infinite;
+        animation-duration: 24s;
+        width: 12rem;
+        position: absolute;
+    }
+    .cloud-7 {
+        top: 40vh;
+        left: -200px;
+        animation: anima-cloud linear infinite;
+        animation-duration: 50s;
+        width: 4rem;
+        position: absolute;
+    }
+    .cloud-8 {
+        top: 55vh;
+        left: -200px;
+        animation: anima-cloud linear infinite;
+        animation-duration: 32s;
+        width: 7rem;
+        position: absolute;
+    }
+    .cloud-9 {
+        top: 65vh;
+        left: -300px;
+        animation: anima-cloud linear infinite;
+        animation-duration: 20s;
+        width: 10rem;
+        position: absolute;
+    }
+    .cloud-10 {
+        top: 90vh;
+        left: -200px;
+        animation: anima-cloud linear infinite;
+        animation-duration: 56s;
+        width: 5rem;
+        position: absolute;
+    }
+    @keyframes anima-cloud {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(120vw);
+        }
     }
 }
 
@@ -135,88 +140,80 @@ body {
     margin-right: auto;
     margin-top: 6rem;
     overflow: hidden;
-}
-
-.t-1 {
-    font-family: 'Marck Script', cursive;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    font-weight: 500;
-    text-align: center;
-    margin: 0;
-    color: $color-tittle-1;
-}
-
-.t-2 {
-    font-family: 'Marck Script', cursive;
-    font-size: 4rem;
-    line-height: 4rem;
-    font-weight: 500;
-    text-align: center;
-    margin: 0;
-    color: $color-tittle-2;
-}
-
-.p-1 {
-    font-family: 'Josefin Slab', serif;
-    text-align: center;
-    margin-top: 2.7rem;
-    margin-bottom: 0;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    font-weight: 600;
-    line-height: 1.3rem;
-    color: $color-border;
-}
-
-.p-2 {
-    font-family: 'Josefin Slab', serif;
-    text-align: center;
-    margin-top: .7rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    font-weight: 600;
-    line-height: 1.3rem;
-    color: $color-border;
-}
-
-.p-3 {
-    font-family: 'Josefin Slab', serif;
-    text-align: right;
-    margin-top: 1.6rem;
-    margin-right: 2rem;
-    margin-bottom: .8rem;
-    font-weight: 600;
-    color: $color-border;
-}
-
-.st-1 {
-    font-family: 'Marck Script', cursive;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-bottom: 0;
-    color: $color-tittle-2;
-}
-
-.st-2 {
-    font-family: 'Marck Script', cursive;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-bottom: 0;
-    color: $color-tittle-1;
-}
-
-.sp-1 {
-    font-family: 'Josefin Slab', serif;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    color: $color-border;
-    .span {
-        font-family: 'Open Sans', sans-serif;
-        font-size: .95rem;
+    .t-1 {
+        font-family: 'Marck Script', cursive;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: 500;
+        text-align: center;
+        margin: 0;
+        color: $color-tittle-1;
+    }
+    .t-2 {
+        font-family: 'Marck Script', cursive;
+        font-size: 4rem;
+        line-height: 4rem;
+        font-weight: 500;
+        text-align: center;
+        margin: 0;
+        color: $color-tittle-2;
+    }
+    .p-1 {
+        font-family: 'Josefin Slab', serif;
+        text-align: center;
+        margin-top: 2.7rem;
+        margin-bottom: 0;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-weight: 600;
+        line-height: 1.3rem;
+        color: $color-border;
+    }
+    .p-2 {
+        font-family: 'Josefin Slab', serif;
+        text-align: center;
+        margin-top: .7rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-weight: 600;
+        line-height: 1.3rem;
+        color: $color-border;
+    }
+    .p-3 {
+        font-family: 'Josefin Slab', serif;
+        text-align: right;
+        margin-top: 1.6rem;
+        margin-right: 2rem;
+        margin-bottom: .8rem;
+        font-weight: 600;
+        color: $color-border;
+    }
+    .st-1 {
+        font-family: 'Marck Script', cursive;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 0;
+        color: $color-tittle-2;
+    }
+    .st-2 {
+        font-family: 'Marck Script', cursive;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 0;
+        color: $color-tittle-1;
+    }
+    .sp-1 {
+        font-family: 'Josefin Slab', serif;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: $color-border;
+        .span {
+            font-family: 'Open Sans', sans-serif;
+            font-size: .95rem;
+        }
     }
 }
 
@@ -232,49 +229,40 @@ body {
         width: 25%;
         justify-content: space-around;
         .moon {
-            height: 12rem;
-            animation: anima-object linear infinite;
+            @extend %object-1;
             animation-duration: 12s;
-            transform-origin: center top;
         }
         .bottle {
-            height: 12rem;
-            animation: anima-object linear infinite;
+            @extend %object-1;
             animation-duration: 15s;
-            transform-origin: center top;
             margin: -2rem;
         }
         .pacifier {
-            height: 12rem;
-            animation: anima-object linear infinite;
+            @extend %object-1;
             animation-duration: 13s;
-            transform-origin: center top;
             margin: -2rem;
         }
         .duck {
-            height: 12rem;
-            animation: anima-object linear infinite;
+            @extend %object-1;
             animation-duration: 12s;
-            transform-origin: center top;
         }
-    }
-}
-
-@keyframes anima-object {
-    0%{
-        transform: rotate(0deg);
-    }
-    25%{
-        transform: rotate(35deg);
-    }
-    50%{
-        transform: rotate(0deg);
-    }
-    75%{
-        transform: rotate(-35deg);
-    }
-    100%{
-        transform: rotate(0deg);
+        @keyframes anima-object {
+            0%{
+                transform: rotate(0deg);
+            }
+            25%{
+                transform: rotate(35deg);
+            }
+            50%{
+                transform: rotate(0deg);
+            }
+            75%{
+                transform: rotate(-35deg);
+            }
+            100%{
+                transform: rotate(0deg);
+            }
+        }
     }
 }
 
@@ -296,12 +284,7 @@ body {
         top: 5rem;
         transform: rotate(40deg);
         .button-left {
-            font-family: 'Marck Script', cursive;
-            color: white;
-            border: none;
-            background-color: transparent;
-            font-size: 1.5rem;
-            cursor: pointer;
+            @extend %object-2;
         }
     }
 }
@@ -321,12 +304,7 @@ body {
         top: 4.3rem;
         transform: rotate(-40deg);
         .button-right {
-            font-family: 'Marck Script', cursive;
-            color: white;
-            border: none;
-            background-color: transparent;
-            font-size: 1.5rem;
-            cursor: pointer;
+            @extend %object-2;
         }
     }
 }
