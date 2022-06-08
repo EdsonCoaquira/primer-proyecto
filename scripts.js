@@ -1,4 +1,4 @@
-/* Efectos para cambiar a Día y Noche */
+/* Efectos para cambiar a Día y Noche haciendo click en los cartelitos*/
 let color_morning = 'rgb(147, 197, 253)';
 let button_1 = document.getElementById('morning');
 

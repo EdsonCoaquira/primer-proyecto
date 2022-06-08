@@ -23,10 +23,10 @@ body {
   display: flex;
   background-color: #93c5fd;
   flex-wrap: wrap;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
   position: fixed;
   top: 0;
+  bottom: 0;
   left: 0; }
   .background .cloud-1 {
     top: 2vh;
@@ -108,15 +108,16 @@ body {
 /* Estilos para la tarjeta de invitación */
 .card {
   background-color: #f1f2f2;
-  padding: 5.2rem;
-  padding-bottom: 6.8rem;
+  padding-bottom: 6.75rem;
+  padding-top: 4.95rem;
   border: 3px dashed #61bad1;
   outline: 15px solid #f1f2f2;
   position: relative;
   width: 30rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 6rem;
+  margin-top: 8rem;
+  margin-bottom: 6rem;
   overflow: hidden; }
   .card .t-1 {
     font-family: 'Marck Script', cursive;
@@ -185,6 +186,50 @@ body {
       font-family: 'Open Sans', sans-serif;
       font-size: .95rem; }
 
+@media screen and (min-width: 640px) {
+  .card {
+    width: 12rem;
+    padding: 5.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.25rem; } }
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 15rem;
+    padding: 4.95rem;
+    padding-bottom: 6.45rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.25rem; } }
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 20rem;
+    padding: 4.95rem;
+    padding-bottom: 6.45rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.25rem; } }
+
+@media screen and (min-width: 1280px) {
+  .card {
+    width: 25rem;
+    padding: 4.95rem;
+    padding-bottom: 6.45rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.25rem; } }
+
+@media screen and (min-width: 1536px) {
+  .card {
+    width: 30rem;
+    padding: 4.95rem;
+    padding-bottom: 6.45rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.25rem; } }
+
 /* Estilos para los objetos colgantes */
 .flex-head {
   display: flex;
@@ -225,27 +270,45 @@ body {
   bottom: 0;
   left: 0; }
   .poster-left .poster-left-1 {
-    width: 13rem;
+    width: 9rem;
     transform: rotate(52deg);
     vertical-align: middle;
-    margin-left: -36px;
-    margin-bottom: 10px; }
+    margin-left: -25px;
+    margin-bottom: 5px; }
+  @media screen and (min-width: 640px) {
+    .poster-left .poster-left-1 {
+      width: 13rem;
+      margin-left: -36px;
+      margin-bottom: 10px; } }
   .poster-left .morning-left {
     position: absolute;
-    left: 4.2rem;
-    top: 5rem;
+    left: 2.5rem;
+    top: 3.5rem;
     transform: rotate(40deg); }
+  @media screen and (min-width: 640px) {
+    .poster-left .morning-left {
+      left: 4.2rem;
+      top: 5rem; } }
 
 .poster-right {
   position: fixed;
   bottom: 0;
   right: 0; }
   .poster-right .poster-right-1 {
-    width: 12rem;
+    width: 8rem;
     vertical-align: middle;
     margin-bottom: -25px; }
+  @media screen and (min-width: 640px) {
+    .poster-right .poster-right-1 {
+      width: 12rem;
+      margin-left: -36px;
+      margin-bottom: -25px; } }
   .poster-right .night-right {
     position: absolute;
-    left: 3.8rem;
-    top: 4.3rem;
+    left: 1.9rem;
+    top: 2.5rem;
     transform: rotate(-40deg); }
+  @media screen and (min-width: 640px) {
+    .poster-right .night-right {
+      left: 1.8rem;
+      top: 4.2rem; } }
