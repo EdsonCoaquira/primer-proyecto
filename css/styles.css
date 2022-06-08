@@ -15,6 +15,10 @@
   font-size: 1.5rem;
   cursor: pointer; }
 
+.background .cloud-1, .background .cloud-2, .background .cloud-3, .background .cloud-4, .background .cloud-5, .background .cloud-6, .background .cloud-7, .background .cloud-8, .background .cloud-9, .background .cloud-10 {
+  animation: anima-cloud linear infinite;
+  position: absolute; }
+
 /* Estilos para el fondo de la pagína web */
 body {
   overflow-x: hidden; }
@@ -31,73 +35,53 @@ body {
   .background .cloud-1 {
     top: 2vh;
     left: -200px;
-    animation: anima-cloud linear infinite;
     animation-duration: 10s;
-    width: 6rem;
-    position: absolute; }
+    width: 6rem; }
   .background .cloud-2 {
     top: 10vh;
     left: -300px;
-    animation: anima-cloud linear infinite;
     animation-duration: 20s;
-    width: 12rem;
-    position: absolute; }
+    width: 12rem; }
   .background .cloud-3 {
     top: 15vh;
     left: -200px;
-    animation: anima-cloud linear infinite;
     animation-duration: 15s;
-    width: 6rem;
-    position: absolute; }
+    width: 6rem; }
   .background .cloud-4 {
     top: 35vh;
     left: -300px;
-    animation: anima-cloud linear infinite;
     animation-duration: 30s;
-    width: 12rem;
-    position: absolute; }
+    width: 12rem; }
   .background .cloud-5 {
     top: 25vh;
     left: -200px;
-    animation: anima-cloud linear infinite;
     animation-duration: 12s;
-    width: 6rem;
-    position: absolute; }
+    width: 6rem; }
   .background .cloud-6 {
     top: 70vh;
     left: -300px;
-    animation: anima-cloud linear infinite;
     animation-duration: 24s;
-    width: 12rem;
-    position: absolute; }
+    width: 12rem; }
   .background .cloud-7 {
     top: 40vh;
     left: -200px;
-    animation: anima-cloud linear infinite;
     animation-duration: 50s;
-    width: 4rem;
-    position: absolute; }
+    width: 4rem; }
   .background .cloud-8 {
     top: 55vh;
     left: -200px;
-    animation: anima-cloud linear infinite;
     animation-duration: 32s;
-    width: 7rem;
-    position: absolute; }
+    width: 7rem; }
   .background .cloud-9 {
     top: 65vh;
     left: -300px;
-    animation: anima-cloud linear infinite;
     animation-duration: 20s;
-    width: 10rem;
-    position: absolute; }
+    width: 10rem; }
   .background .cloud-10 {
     top: 90vh;
     left: -200px;
-    animation: anima-cloud linear infinite;
     animation-duration: 56s;
-    width: 5rem;
-    position: absolute; }
+    width: 5rem; }
 
 @keyframes anima-cloud {
   0% {

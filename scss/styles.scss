@@ -24,6 +24,11 @@ $color-tittle-2: rgb(167, 139, 250);
     cursor: pointer;
 }
 
+%clouds-1 {
+    animation: anima-cloud linear infinite;
+    position: absolute;
+}
+
 /* Estilos para el fondo de la pagína web */
 body {
     overflow-x: hidden;
@@ -41,82 +46,72 @@ body {
     .cloud-1 {
         top: 2vh;
         left: -200px;
-        animation: anima-cloud linear infinite;
+        @extend %clouds-1;
         animation-duration: 10s;
         width: 6rem;
-        position: absolute;
     }
     .cloud-2 {
         top: 10vh;
         left: -300px;
-        animation: anima-cloud linear infinite;
+        @extend %clouds-1;
         animation-duration: 20s;
         width: 12rem;
-        position: absolute;
     }
     .cloud-3 {
         top: 15vh;
         left: -200px;
-        animation: anima-cloud linear infinite;
+        @extend %clouds-1;
         animation-duration: 15s;
         width: 6rem;
-        position: absolute;
     }
     .cloud-4 {
         top: 35vh;
         left: -300px;
-        animation: anima-cloud linear infinite;
+        @extend %clouds-1;
         animation-duration: 30s;
         width: 12rem;
-        position: absolute;
     }
     .cloud-5 {
         top: 25vh;
         left: -200px;
-        animation: anima-cloud linear infinite;
+        @extend %clouds-1;
         animation-duration: 12s;
         width: 6rem;
-        position: absolute;
     }
     .cloud-6 {
         top: 70vh;
         left: -300px;
-        animation: anima-cloud linear infinite;
+        @extend %clouds-1;
         animation-duration: 24s;
         width: 12rem;
-        position: absolute;
     }
     .cloud-7 {
         top: 40vh;
         left: -200px;
-        animation: anima-cloud linear infinite;
+        @extend %clouds-1;
         animation-duration: 50s;
         width: 4rem;
-        position: absolute;
     }
     .cloud-8 {
         top: 55vh;
         left: -200px;
-        animation: anima-cloud linear infinite;
+        @extend %clouds-1;
         animation-duration: 32s;
         width: 7rem;
-        position: absolute;
     }
     .cloud-9 {
         top: 65vh;
         left: -300px;
-        animation: anima-cloud linear infinite;
+        @extend %clouds-1;
         animation-duration: 20s;
         width: 10rem;
-        position: absolute;
     }
     .cloud-10 {
         top: 90vh;
         left: -200px;
-        animation: anima-cloud linear infinite;
+        @extend %clouds-1;
         animation-duration: 56s;
         width: 5rem;
-        position: absolute;
     }
     @keyframes anima-cloud {
         0%{
